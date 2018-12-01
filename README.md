@@ -1,7 +1,5 @@
-```
-# To run the Hello World demo:
-flutter run
+#Local Hack Day 2018
 
-# To run the Hello World demo showing Arabic:
-flutter run lib/arabic.dart
-```
+Team: `Traveling Minstrels`
+
+Project: `Bard`
