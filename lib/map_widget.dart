@@ -17,23 +17,24 @@ class MapWidget extends StatelessWidget {
           urlTemplate: "https://api.tiles.mapbox.com/v4/"
               "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
           additionalOptions: {
-            'accessToken': '<PUT_ACCESS_TOKEN_HERE>',
-            'id': 'mapbox.streets',
+            'accessToken': 'pk.eyJ1IjoiYXpsZW4iLCJhIjoiY2pwNXpmNXZkMTJtZzN3c2FtOXBhZG12eCJ9.8Qd44x7uDZwCTwlmbbCAwA',
+            'id': 'mapbox.light',
+            'owner': 'azlen',
           },
         ),
-        new MarkerLayerOptions(
-          markers: [
-            new Marker(
-              width: 80.0,
-              height: 80.0,
-              point: new LatLng(51.5, -0.09),
-              builder: (ctx) =>
-              new Container(
-                child: new FlutterLogo(),
-              ),
-            ),
-          ],
-        ),
+        //new MarkerLayerOptions(
+        //  markers: [
+        //    new Marker(
+        //      width: 80.0,
+        //      height: 80.0,
+        //      point: new LatLng(51.5, -0.09),
+        //      builder: (ctx) =>
+        //      new Container(
+        //        child: new FlutterLogo(),
+        //      ),
+        //    ),
+        //  ],
+        //),
       ],
     );
   }

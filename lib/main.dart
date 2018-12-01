@@ -30,7 +30,8 @@ class _MyAppState extends State<MyApp> {
     return new MaterialApp(
       title: 'UI Experiments',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
+        backgroundColor: Colors.black,
       ),
       routes: {
         //'/bottom_app_bar': (context) => new BottomAppBarPage(),
