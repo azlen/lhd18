@@ -33,7 +33,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/bottom_app_bar': (context) => new BottomAppBarPage(),
+        //'/bottom_app_bar': (context) => new BottomAppBarPage(),
         //'/bottom_app_bar_google': (context) => new GoogleTasksBottomAppBarPage(),
       },
       home: new Scaffold(
@@ -44,39 +44,7 @@ class _MyAppState extends State<MyApp> {
             //new MyHomePage(title: 'Home'),
             //new RoundedImageScreen(),
             //new SliverSamplePage(),
-            new BottomBarHomePage(),
-          ],
-        ),
-        bottomNavigationBar: new BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          currentIndex: _selectedIndex,
-          onTap: (int index) {
-            setState(() {
-              _selectedIndex = index;
-              controller.animateToPage(
-                _selectedIndex,
-                duration: kTabScrollDuration,
-                curve: scrollCurve,
-              );
-            });
-          },
-          items: <BottomNavigationBarItem>[
-            new BottomNavigationBarItem(
-              icon: new Icon(Icons.home),
-              title: new Text('Home'),
-            ),
-            new BottomNavigationBarItem(
-              icon: new Icon(Icons.image),
-              title: new Text('Image'),
-            ),
-            new BottomNavigationBarItem(
-              icon: new Icon(Icons.content_cut),
-              title: new Text('Sliver'),
-            ),
-            new BottomNavigationBarItem(
-              icon: new Icon(Icons.border_horizontal),
-              title: new Text('App Bar'),
-            ),
+            new BottomAppBarPage(),
           ],
         ),
       ),
