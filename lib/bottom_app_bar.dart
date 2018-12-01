@@ -30,10 +30,10 @@ class BottomAppBarPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: AppBar(title: const Text('Bottom App Bar')),
+      appBar: AppBar(title: const Text('Bard')),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.keyboard_voice),
         onPressed: () {},
       ),
       bottomNavigationBar: BottomAppBar(
@@ -43,14 +43,10 @@ class BottomAppBarPage extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            IconButton(
-              icon: Icon(Icons.menu),
-              onPressed: () {},
-            ),
-            IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {},
-            )
+            //IconButton(
+            //  icon: Icon(Icons.menu),
+            //  onPressed: () {},
+            //),
           ],
         ),
       ),
