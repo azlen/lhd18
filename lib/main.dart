@@ -32,6 +32,7 @@ class _MyAppState extends State<MyApp> {
       theme: new ThemeData(
         primarySwatch: Colors.red,
         backgroundColor: Colors.black,
+        primaryColor: Colors.white,
       ),
       routes: {
         //'/bottom_app_bar': (context) => new BottomAppBarPage(),

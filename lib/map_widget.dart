@@ -1,15 +1,44 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
+import 'package:location/location.dart';
 import 'package:latlong/latlong.dart';
 //import 'package:flutter_map/plugin_api.dart';
 
-class MapWidget extends StatelessWidget {
+class MapWidget extends StatefulWidget {
+  @override
+  MapWidgetState createState() => new MapWidgetState();
+
+}
+
+class MapWidgetState extends State<MapWidget> {
+
+  var currentLocation = <String, double>{};
+
+  void initState() {
+    super.initState();
+
+    var location = new Location();
+
+    setState(() {
+      currentLocation = {
+        'logitude': 0,
+        'latitude': 0,
+      }
+    })
+
+    location.getLocation().then((Map<String, double> cL) {
+      setState(() {
+        currentLocation = cL;
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return new FlutterMap(
       options: new MapOptions(
-        center: new LatLng(51.5, -0.09),
+        center: new LatLng(currentLocation['latitude'], currentLocation['longitude']),
         zoom: 13.0,
       ),
       layers: [
@@ -39,3 +68,4 @@ class MapWidget extends StatelessWidget {
     );
   }
 }
+
