@@ -72,7 +72,13 @@ class MapWidgetState extends State<MapWidget> {
                   child: const Icon(Icons.place),
                 ),
                 onPressed: () {
-                  Navigator.of(context).pushNamed('/audioplayer');
+                  //Navigator.of(context).pushNamed('/audioplayer');
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AudioPlayerPage(file: "./audio/"),
+                    ),
+                  );
                 },
               ),
             ),

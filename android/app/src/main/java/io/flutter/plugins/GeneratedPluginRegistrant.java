@@ -4,6 +4,7 @@ import io.flutter.plugin.common.PluginRegistry;
 import com.jordanalcaraz.audiorecorder.audiorecorder.AudioRecorderPlugin;
 import io.flutter.plugins.firebase.core.FirebaseCorePlugin;
 import io.flutter.plugins.firebase.storage.FirebaseStoragePlugin;
+import com.dooboolab.fluttersound.FlutterSoundPlugin;
 import com.lyokone.location.LocationPlugin;
 import io.flutter.plugins.pathprovider.PathProviderPlugin;
 
@@ -18,6 +19,7 @@ public final class GeneratedPluginRegistrant {
     AudioRecorderPlugin.registerWith(registry.registrarFor("com.jordanalcaraz.audiorecorder.audiorecorder.AudioRecorderPlugin"));
     FirebaseCorePlugin.registerWith(registry.registrarFor("io.flutter.plugins.firebase.core.FirebaseCorePlugin"));
     FirebaseStoragePlugin.registerWith(registry.registrarFor("io.flutter.plugins.firebase.storage.FirebaseStoragePlugin"));
+    FlutterSoundPlugin.registerWith(registry.registrarFor("com.dooboolab.fluttersound.FlutterSoundPlugin"));
     LocationPlugin.registerWith(registry.registrarFor("com.lyokone.location.LocationPlugin"));
     PathProviderPlugin.registerWith(registry.registrarFor("io.flutter.plugins.pathprovider.PathProviderPlugin"));
   }

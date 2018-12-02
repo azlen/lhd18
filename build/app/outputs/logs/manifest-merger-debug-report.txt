@@ -7,6 +7,7 @@ INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/m
 MERGED from [:location] /Users/azlen/Documents/local_hack_day/repository/build/location/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-10:12
 MERGED from [:audio_recorder] /Users/azlen/Documents/local_hack_day/repository/build/audio_recorder/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
 MERGED from [:path_provider] /Users/azlen/Documents/local_hack_day/repository/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_sound] /Users/azlen/Documents/local_hack_day/repository/build/flutter_sound/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /Users/azlen/Documents/local_hack_day/repository/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_storage] /Users/azlen/Documents/local_hack_day/repository/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/87e7a85c941f8d9941c3cd3d0c7f8743/AndroidManifest.xml:2:1-9:12
@@ -172,6 +173,8 @@ MERGED from [:audio_recorder] /Users/azlen/Documents/local_hack_day/repository/b
 MERGED from [:audio_recorder] /Users/azlen/Documents/local_hack_day/repository/build/audio_recorder/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [:path_provider] /Users/azlen/Documents/local_hack_day/repository/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/azlen/Documents/local_hack_day/repository/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] /Users/azlen/Documents/local_hack_day/repository/build/flutter_sound/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] /Users/azlen/Documents/local_hack_day/repository/build/flutter_sound/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/azlen/Documents/local_hack_day/repository/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/azlen/Documents/local_hack_day/repository/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/azlen/Documents/local_hack_day/repository/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
