@@ -14,16 +14,18 @@ import 'package:uuid/uuid.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 class AudioPlayerPage extends StatefulWidget {
-  AudioPlayerPage({this.storage});
+  AudioPlayerPage({this.storage, this.file});
   final FirebaseStorage storage;
+  final String file;
 
   @override
   _AudioPlayerPageState createState() => new _AudioPlayerPageState();
 }
 
 class _AudioPlayerPageState extends State<AudioPlayerPage> {
-  _AudioPlayerPageState({this.storage});
+  _AudioPlayerPageState({this.storage, this.file});
   final FirebaseStorage storage;
+  final Path file;
 
   Icon currentIcon = Icon(Icons.play_arrow);
   //bool isRecording;

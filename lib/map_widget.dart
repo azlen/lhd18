@@ -76,7 +76,7 @@ class MapWidgetState extends State<MapWidget> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => AudioPlayerPage(file: "./audio/"),
+                      builder: (context) => AudioPlayerPage(file: 'assets/colleen-port-of-vancouver-stories.mp3'),
                     ),
                   );
                 },
