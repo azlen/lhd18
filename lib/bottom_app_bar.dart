@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'map_widget.dart';
+import 'package:flutter_sound/flutter_sound.dart';
+
 
 import 'dart:io' as io;
 import 'dart:math';
@@ -12,8 +14,8 @@ import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
 
 class BottomAppBarPage extends StatelessWidget {
-  //bool isRecording;
-  //Recording recording = new Recording();
+  FlutterSound flutterSound = new FlutterSound();
+  bool isRecording = false;
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +35,8 @@ class BottomAppBarPage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.keyboard_voice),
           onPressed: () {
-            //isRecording ? startRecording() : stopRecording();
-            //isRecording = !isRecording;
+            isRecording ? startRecording(flutterSound) : stopRecording(flutterSound);
+            isRecording = !isRecording;
           }
       ),
       bottomNavigationBar: BottomAppBar(
@@ -55,9 +57,8 @@ class BottomAppBarPage extends StatelessWidget {
   }
 }
 
-startRecording() async {
+startRecording(FlutterSound flutterSound) async {
   try {
-    if (await AudioRecorder.hasPermissions) {
       io.Directory appDocDir = await getApplicationDocumentsDirectory();
       var uuid = new Uuid();
       String path = appDocDir.path + "/" + uuid.v1();
@@ -65,24 +66,14 @@ startRecording() async {
       print("Start recording: $path");
 
       if (path != null) {
-        await AudioRecorder.start(
-            path: path, audioOutputFormat: AudioOutputFormat.AAC);
+        await flutterSound.startRecorder(path);
       } else {
-        await AudioRecorder.start();
+        await flutterSound.startRecorder(null);
       }
-
-//      bool isRecording = await AudioRecorder.isRecording;
-//      setState(() {
-//        isRecording = isRecording;
-//        recording = new Recording(duration: new Duration(), path: "");
-//      });
-
-    } else {
-    }
-  } catch(e) {
+    } catch(e) {
     print(e);
   }
 }
 
-stopRecording() async {
+stopRecording(FlutterSound flutterSound) async {
 }
