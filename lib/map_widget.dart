@@ -3,15 +3,23 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:location/location.dart';
 import 'package:latlong/latlong.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 //import 'package:flutter_map/plugin_api.dart';
 
+import 'audio_player_page.dart';
+
 class MapWidget extends StatefulWidget {
+  MapWidget({this.storage});
+  final FirebaseStorage storage;
+
   @override
   MapWidgetState createState() => new MapWidgetState();
 
 }
 
 class MapWidgetState extends State<MapWidget> {
+  MapWidgetState({this.storage});
+  final FirebaseStorage storage;
 
   var currentLocation = <String, double>{};
 
@@ -51,19 +59,25 @@ class MapWidgetState extends State<MapWidget> {
             'owner': 'azlen',
           },
         ),
-        //new MarkerLayerOptions(
-        //  markers: [
-        //    new Marker(
-        //      width: 80.0,
-        //      height: 80.0,
-        //      point: new LatLng(51.5, -0.09),
-        //      builder: (ctx) =>
-        //      new Container(
-        //        child: new FlutterLogo(),
-        //      ),
-        //    ),
-        //  ],
-        //),
+        new MarkerLayerOptions(
+          markers: [
+            new Marker(
+              width: 100.0,
+              height: 100.0,
+              point: new LatLng(49.2879, -123.1127),
+              builder: (ctx) =>
+              new IconButton(
+                icon: new IconTheme(
+                  data: new IconThemeData(color: Colors.red),
+                  child: const Icon(Icons.place),
+                ),
+                onPressed: () {
+                  Navigator.of(context).pushNamed('/audioplayer');
+                },
+              ),
+            ),
+          ],
+        ),
       ],
     );
   }
