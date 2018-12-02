@@ -24,8 +24,8 @@ class MapWidgetState extends State<MapWidget> {
       currentLocation = {
         'logitude': 0,
         'latitude': 0,
-      }
-    })
+      };
+    });
 
     location.getLocation().then((Map<String, double> cL) {
       setState(() {
