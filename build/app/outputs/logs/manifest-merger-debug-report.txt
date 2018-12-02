@@ -1,10 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
-INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
-INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
-INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
+INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
+INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
+INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
 MERGED from [:location] /Users/azlen/Documents/local_hack_day/repository/build/location/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-10:12
+MERGED from [:audio_recorder] /Users/azlen/Documents/local_hack_day/repository/build/audio_recorder/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
+MERGED from [:path_provider] /Users/azlen/Documents/local_hack_day/repository/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /Users/azlen/Documents/local_hack_day/repository/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_storage] /Users/azlen/Documents/local_hack_day/repository/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/87e7a85c941f8d9941c3cd3d0c7f8743/AndroidManifest.xml:2:1-9:12
@@ -33,20 +35,20 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /Users/azlen/.gradle/ca
 MERGED from [com.android.support:support-compat:26.1.0] /Users/azlen/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/abbc7f1fa4e72f6b654db4fee89b3e3b/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/azlen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6819711199cb2be219b97ffcef2591aa/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/9db1a5f1febe78c94382e196e842eaf6/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
-INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
-INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
+INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
+INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
+INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
 	package
 		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:7:5-46
 		INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
 		INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-35:12
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:1-39:12
 		INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:6:11-69
@@ -64,14 +66,26 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/azlen/.gradle/cache
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/azlen/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/c44b74193d807cd84e8d6a64b0a9fb45/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:13:22-64
-uses-permission#android.permission.ACCESS_FINE_LOCATION
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:15:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:19:5-79
 MERGED from [:location] /Users/azlen/Documents/local_hack_day/repository/build/location/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-79
 MERGED from [:location] /Users/azlen/Documents/local_hack_day/repository/build/location/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:19:22-76
 application
-ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:22:5-34:19
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:26:5-38:19
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/87e7a85c941f8d9941c3cd3d0c7f8743/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/87e7a85c941f8d9941c3cd3d0c7f8743/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/azlen/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/7daebc440285ab34329d17a788e0d098/AndroidManifest.xml:7:5-20
@@ -119,41 +133,45 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/azlen/.gradle/cac
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/9db1a5f1febe78c94382e196e842eaf6/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/azlen/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/9db1a5f1febe78c94382e196e842eaf6/AndroidManifest.xml:7:5-20
 	android:label
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:22:67-94
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:26:67-94
 	android:icon
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:22:95-129
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:26:95-129
 	android:name
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:22:18-66
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:26:18-66
 activity#io.flutter.examples.hello_world.MainActivity
-ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:23:9-33:20
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:27:9-37:20
 	android:launchMode
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:24:19-49
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:28:19-49
 	android:hardwareAccelerated
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:27:19-53
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:31:19-53
 	android:windowSoftInputMode
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:28:19-61
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:32:19-61
 	android:configChanges
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:26:19-143
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:30:19-143
 	android:theme
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:25:19-72
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:29:19-72
 	android:name
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:23:19-47
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:27:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:29:13-32:29
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:33:13-36:29
 action#android.intent.action.MAIN
-ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:30:17-68
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:34:17-68
 	android:name
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:31:17-76
+ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml:35:27-74
 uses-sdk
 INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/azlen/Documents/local_hack_day/repository/android/app/src/main/AndroidManifest.xml
 MERGED from [:location] /Users/azlen/Documents/local_hack_day/repository/build/location/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:location] /Users/azlen/Documents/local_hack_day/repository/build/location/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:audio_recorder] /Users/azlen/Documents/local_hack_day/repository/build/audio_recorder/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:audio_recorder] /Users/azlen/Documents/local_hack_day/repository/build/audio_recorder/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:path_provider] /Users/azlen/Documents/local_hack_day/repository/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/azlen/Documents/local_hack_day/repository/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/azlen/Documents/local_hack_day/repository/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/azlen/Documents/local_hack_day/repository/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/azlen/Documents/local_hack_day/repository/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
