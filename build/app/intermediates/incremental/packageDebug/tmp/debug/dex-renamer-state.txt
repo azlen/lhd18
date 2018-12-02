@@ -1,4 +1,4 @@
-#Sat Dec 01 18:31:42 PST 2018
-base.0=/Users/azlen/Documents/local_hack_day/repository/build/app/intermediates/transforms/dexMerger/debug/0
+#Sat Dec 01 18:45:44 PST 2018
+base.0=C\:\\Users\\Jip\\Desktop\\JP\\Old Memes\\lhd18\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
